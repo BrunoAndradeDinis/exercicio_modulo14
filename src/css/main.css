@@ -1,0 +1,171 @@
+:root {
+  --bg-color-1: #e15f41;
+  --bg-color-2: #fff;
+  --bg-button: #ffeae6;
+  --bg-color-3: #4186e1;
+}
+
+body {
+  font-family: "Roboto", serif;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: var(--bg-color-1);
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: var(--bg-color-2);
+  color: var(--bg-color-1);
+}
+
+#cabecalho .container a h1 {
+  font-size: 2rem;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+  color: var(--bg-color-2);
+}
+
+.navbar-toggler {
+  background-color: var(--bg-button);
+}
+
+.section-title, h5 {
+  font-family: "VT323", serif;
+  font-weight: 400;
+}
+
+.section-title span {
+  color: var(--bg-color-1);
+}
+
+#sobre-o-restaurante,
+#produtos {
+  background-color: var(--bg-button);
+}
+
+.carousel-info{
+  max-height: 400px;
+  background-color: var(--bg-color-1);
+  color: var(--bg-button);
+}
+
+.info-item {
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border-bottom-style: solid;
+  border-bottom-width: 12px;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  border-image-slice: 15;
+  border-image-source: url(https://pt.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/menu_border.png);
+  border-image-width: 1;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 12px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 12px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-top-style: solid;
+  border-top-width: 12px;
+  color: rgb(32, 33, 34);
+  direction: ltr;
+  display: block;
+  float: right;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 22.4px;
+  unicode-bidi: isolate;
+  border-image-source: url(https://pt.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/menu_border.png);
+}
+
+
+.info-item:hover > img, .bg-grass:hover{
+  transform: scale(1.1);
+  transition: .3s;
+}
+
+div.info-item:hover{
+  cursor: pointer;
+}
+
+.text-colored {
+  color: var(--bg-color-1);
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+  background-color: var(--bg-color-1);
+  color: var(--bg-color-2);
+}
+
+.nav-produtos .nav-link:hover {
+  color: var(--bg-color-1);
+}
+
+.social-links li {
+  list-style: none;
+  display: inline-block;
+}
+
+.social-links li a {
+  text-decoration: none;
+}
+
+.coin {
+  overflow: hidden;
+  max-height: 16px;
+  width: 16px;
+  outline: none;
+}
+
+.bg-grass {
+  background-image: url("../images/pierre/produtos-padrao/Grass_Starter.png");
+  width: 100%;
+  max-height: 64px;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+}
+
+#produtos img, .carousel-info img, #carousel-primavera img, #carousel-verao img {
+  object-fit: scale-down;
+  height: 64px;
+  opacity: 1;
+  z-index: 1;
+  position: relative;
+}
+
+textarea{
+  resize: none;
+}
+
+.social-links li:hover{
+  transform: scale(.9);
+  transition: .3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+
+  #produtos .flex-column {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 980px) and (max-width: 1140px) {
+  #eventos img {
+    width: 100%;
+    min-height: 173px;
+    max-height: 173px;
+  }
+}

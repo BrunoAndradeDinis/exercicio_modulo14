@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Armazém do Pierre</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./src/css/main.css">
+  <link rel="shortcut icon" href="./src/images/pierre/300px-Pierres_shop_PT.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+    <div class="container">
+      <a href="/" class="nav-link d-flex align-items-center">
+        <h1 class="navbar-brand m-0 section-title">Pierre</h1>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+        <span class="navbar-toggler-icon">
+
+        </span>
+      </button>
+      <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+        <ul class="nav nav-pills d-block d-md-flex">
+          <!-- {propriedade}-{breakpoint}-{valor} --- d-md-flex -->
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#sobre-o-restaurante">
+              <i class="bi bi-house-door me-1"></i>
+              Sobre o armazém</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#eventos">
+              <i class="bi bi-calendar-check me-1"></i>
+              Eventos</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#produtos">
+              <i class="bi bi-card-text me-1"></i>
+              Nossos produtos</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a class="nav-link" href="#fale-conosco">
+              <i class="bi bi-chat-left-text me-1"></i>
+              Fale conosco</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+      <div id="carrosseis">
+        <div class="row carousel-info">
+          <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center p-2">
+            <div id="carousel-padrao" class="carousel slide w-50" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/padrao/32px-Catalogue.png" alt="Catalogo">
+                        <h5 class="text-center fw-bold">Catálogo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/36px-Wallpaper_001_Icon.png" alt="Papel de parede">
+                        <h5 class="text-center fw-bold">Papel de parede </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/40px-Flooring_01_Icon.png" alt="Piso">
+                        <h5 class="text-center fw-bold">Piso </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Apple_Sapling.png" alt="Muda de macieira">
+                        <h5 class="text-center fw-bold">Muda de macieira </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Apricot_Sapling.png" alt="Muda de damasqueiro">
+                        <h5 class="text-center fw-bold">Muda de damasqueiro </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Basic_Fertilizer.png" alt="Fertilizante Básico">
+                        <h5 class="text-center fw-bold">Fertilizante básico </h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Basic_Retaining_Soil.png" alt="Solo retentor">
+                        <h5 class="text-center fw-bold">Solo retentor</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Bouquet.png" alt="Buquê">
+                        <h5 class="text-center fw-bold">Buquê</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Cherry_Sapling.png" alt="Muda de cerejeira">
+                        <h5 class="text-center fw-bold">Muda de cerejeira</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Deluxe_Speed-Gro.png" alt="Solo Foliar Premium">
+                        <h5 class="text-center fw-bold">Solo Foliar Premium</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Grass_Starter.png" alt="Mudas de grama">
+                        <h5 class="text-center fw-bold">Mudas de grama</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Oil.png" alt="	Óleo">
+                        <h5 class="text-center fw-bold">Óleo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Orange_Sapling.png" alt="Muda de laranjeira">
+                        <h5 class="text-center fw-bold">Muda de laranjeira</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Peach_Sapling.png" alt="	Muda de pessegueiro">
+                        <h5 class="text-center fw-bold">Muda de pessegueiro</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Pomegranate_Sapling.png" alt="	Muda de romanzeira">
+                        <h5 class="text-center fw-bold">Muda de romanzeira</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Quality_Fertilizer.png" alt="Fertilizante de qualidade">
+                        <h5 class="text-center fw-bold">Fertilizante de qualidade</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Quality_Retaining_Soil.png" alt="Solo retentor de qualidade">
+                        <h5 class="text-center fw-bold">Solo retentor de qualidade</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <div class="bg-grass mb-1">
+                          <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Recipe_Overlay.png" alt="Mudas de grama (receita)">
+                        </div>
+                        <h5 class="text-center fw-bold">Mudas de grama (receita)</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Rice.png" alt="Arroz">
+                        <h5 class="text-center fw-bold">Arroz</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Speed-Gro.png" alt="Solo Foliar">
+                        <h5 class="text-center fw-bold">Solo Foliar</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Sugar.png" alt="Açúcar">
+                        <h5 class="text-center fw-bold">Açúcar</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Vinegar.png" alt="Vinagre">
+                        <h5 class="text-center fw-bold">Vinagre</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class=" d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Wheat_Flour.png" alt="Farinha de trigo">
+                        <h5 class="text-center fw-bold">Farinha de trigo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-padrao" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-padrao" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+            <a href="/" class="nav-link">
+              <h1 class="section-title">Padrão</h1>
+            </a>
+          </div>
+        </div>
+
+        <div class="row carousel-info">
+          <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center p-2">
+            <div id="carousel-primavera" class="carousel slide w-50" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Bean_Starter.png" alt="Mudas de feijão">
+                        <h5 class="text-center fw-bold">Mudas de feijão</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Cauliflower_Seeds.png" alt="Sementes de Couve-flor">
+                        <h5 class="text-center fw-bold">Sementes de Couve-flor</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Garlic_Seeds.png" alt="Sementes de alho">
+                        <h5 class="text-center fw-bold">Sementes de alho</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Jazz_Seeds.png" alt="Sementes de Jasmim-azul">
+                        <h5 class="text-center fw-bold">Sementes de Jasmim-azul</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Kale_Seeds.png" alt="Sementes de couve">
+                        <h5 class="text-center fw-bold">Sementes de couve</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Parsnip_Seeds.png" alt="Sementes de chirívia">
+                        <h5 class="text-center fw-bold">Sementes de chirívia</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Potato_Seeds.png" alt="Sementes de batata">
+                        <h5 class="text-center fw-bold">Sementes de batata</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Tulip_Bulb.png" alt="Bulbo de Tulipa">
+                        <h5 class="text-center fw-bold">Bulbo de Tulipa</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+        
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-primavera" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-primavera" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+            <a href="/" class="nav-link">
+              <h1 class="section-title">Primavera</h1>
+            </a>
+          </div>
+        </div>
+        
+        <div class="row carousel-info">
+          <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center p-2">
+            <div id="carousel-verao" class="carousel slide w-50" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Blueberry_Seeds.png" alt="Sementes de mirtilo">
+                        <h5 class="text-center fw-bold">Sementes de mirtilo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Corn_Seeds.png" alt="Sementes de milho">
+                        <h5 class="text-center fw-bold">Sementes de milho</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Hops_Starter.png" alt="Mudas de lúpulo">
+                        <h5 class="text-center fw-bold">Mudas de lúpulo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Melon_Seeds.png" alt="Sementes de Melão">
+                        <h5 class="text-center fw-bold">Sementes de Melão</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Pepper_Seeds.png" alt="Sementes de pimenta">
+                        <h5 class="text-center fw-bold">Sementes de pimenta</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Poppy_Seeds.png" alt="Sementes de papoula">
+                        <h5 class="text-center fw-bold">Sementes de papoula</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Radish_Seeds.png" alt="Sementes de rabanete">
+                        <h5 class="text-center fw-bold">Sementes de rabanete</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Red_Cabbage_Seeds.png" alt="Sementes de repolho vermelho">
+                        <h5 class="text-center fw-bold">Sementes de repolho vermelho</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Spangle_Seeds.png" alt="Sementes de Miçanga">
+                        <h5 class="text-center fw-bold">Sementes de Miçanga</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Sunflower_Seeds.png" alt="Sementes de girassol">
+                        <h5 class="text-center fw-bold">Sementes de girassol</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Tomato_Seeds.png" alt="Sementes de Tomate">
+                        <h5 class="text-center fw-bold">Sementes de Tomate</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Wheat_Seeds.png" alt="Sementes de trigo">
+                        <h5 class="text-center fw-bold">Sementes de trigo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-verao" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-verao" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+            <a href="/" class="nav-link">
+              <h1 class="section-title">Verão</h1>
+            </a>
+          </div>
+        </div>
+        <div class="row carousel-info">
+          <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center p-2">
+            <div id="carousel-outono" class="carousel slide w-50" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Amaranth_Seeds.png" alt="Sementes de amaranto">
+                        <h5 class="text-center fw-bold">Sementes de amaranto</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Corn_Seeds.png" alt="Sementes de milho">
+                        <h5 class="text-center fw-bold">Sementes de milho</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Artichoke_Seeds.png" alt="Sementes de alcachofra">
+                        <h5 class="text-center fw-bold">Sementes de alcachofra</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Bok_Choy_Seeds.png" alt="Sementes de couve chinesa">
+                        <h5 class="text-center fw-bold">Sementes de couve chinesa</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Cranberry_Seeds.png" alt="Sementes de oxicoco">
+                        <h5 class="text-center fw-bold">Sementes de oxicoco</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Eggplant_Seeds.png" alt="Sementes de berinjela">
+                        <h5 class="text-center fw-bold">Sementes de berinjela</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Fairy_Seeds.png" alt="Sementes de fada">
+                        <h5 class="text-center fw-bold">Sementes de fada</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Grape_Starter.png" alt="Mudas de uva">
+                        <h5 class="text-center fw-bold">Mudas de uva</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Adicionando as sementes de abóbora -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Pumpkin_Seeds.png" alt="Sementes de abóbora">
+                        <h5 class="text-center fw-bold">Sementes de abóbora</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Adicionando as sementes de girassol -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Sunflower_Seeds.png" alt="Sementes de girassol">
+                        <h5 class="text-center fw-bold">Sementes de girassol</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Adicionando as sementes de inhame -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Yam_Seeds.png" alt="Sementes de inhame">
+                        <h5 class="text-center fw-bold">Sementes de inhame</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Adicionando as sementes de trigo -->
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Wheat_Seeds.png" alt="Sementes de trigo">
+                        <h5 class="text-center fw-bold">Sementes de trigo</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-outono" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-outono" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+          <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+            <a href="/" class="nav-link">
+              <h1 class="section-title">Outono</h1>
+            </a>
+          </div>
+        </div>
+        <div class="row carousel-info">
+          <div class="col-lg-6 col-sm-12 d-flex align-items-center justify-content-center p-2">
+            <div id="carousel-mochilas" class="carousel slide w-50" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/mochilas/Backpack.png" alt="Mochila tamanho 24">
+                        <h5 class="text-center fw-bold">Mochila tamanho 24</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="container">
+                      <div class="d-flex flex-column info-item w-100">
+                        <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/mochilas/36_Backpack.png" alt="Mochila tamanho 36">
+                        <h5 class="text-center fw-bold">Mochila tamanho 36</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        
+              </div>
+        
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel-mochilas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel-mochilas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-sm-12 d-flex justify-content-center align-items-center">
+            <a href="/" class="nav-link">
+              <h1 class="section-title">Mochilas</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-5 pb-5 ">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <img src="./src/images/pierre/Pierre's_General_Store_Interior.png" alt="Foto do espaço interno do restaurante" class="d-block w-100 rounded mb-1 info-item">
+
+            </div>
+            <div class="col-md-7 mt-3 mt-md-0">
+              <h2 class="section-title">Sobre <span>o Armazém</span></h2>
+              <p>
+                Armazém do Pierre é uma das primeiras localizações que o jogador irá visitar em Stardew Valley. É onde você pode comprar várias sementes, mudas e itens. Depois de ter 8 corações com um único aldeão, um buquê de flores estará disponível para compra (no entanto, você só pode dá-lo para candidatos ao Casamento). Você também pode vender ao Pierre itens coletados e lavouras se você precisa de ouro instantâneo e não quer esperar durante a noite.
+                Alguns produtos em estoque variam de estação para estação.
+              </p>
+              <h3 class="section-title">
+                <i class="bi bi-calender-heart-fill"></i>
+                Horário <span> de atendimento</span>
+              </h3>
+              <p>
+                Armazém do Pierre é normalmente fechado na quarta-feira, no entanto, se você terminar todo os Conjuntos do Centro Comunitário, o Armazém estará aberto 7 dias por semana.
+                Aberto: <time class="text-colored">9:00 às 17:00</time>
+              </p>
+              <ul>
+                <li>Segunda</li>
+                <li>Terça</li>
+                <li class="text-colored">Quarta</li>
+                <li>Quinta</li>
+                <li>Sexta</li>
+                <li>Sabado</li>
+                <li>Dom</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Para todas <span>as ocasiões</span></h2>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <img src="./src/images/pierre/imagem-2023-04-28-225320238.webp" alt="" class="rounded mb-2 d-block w-100 info-item">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-calendar-heart-fill"></i>
+              Aniversários
+
+            </h3>
+            <p>Logo na entrada do
+              <span class="text-colored">Pierre</span>
+              </h1>
+              você pode visualizar todos os aniversários e eventos do Vale do Orvalho.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="./src/images/pierre/800px-Help_Wanted_PT.png" alt="" class="rounded mb-2 d-block w-100 info-item">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-bullseye"></i>
+              Missões
+            </h3>
+            <p>Todos os dias, o quadro de avisos na parte externa do Armazém do <span class="text-colored">Pierre</span> pode ou não ter uma nova missão, que pode ser completada em troca de ouros, de itens ou de melhor amizade com que lhe deu a missão. </p>
+          </div>
+          <div class="col-md-4">
+            <img src="./src/images/pierre/800px-Flower_Festival.jpg" alt="" class="rounded mb-2 d-block w-100 info-item">
+            <h3 class="section-title text-colored fs-4">
+              <i class="bi bi-people-fill"></i>
+              Festivais
+            </h3>
+            <p>Festivais são eventos especiais no Stardew Valley. Cada estação tem dois festivais. O prefeito Lewis lhe enviará uma carta com antecedência de cada festival, descrevendo quando e onde será o lugar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="produtos" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center mb-5">Nossos <span>produtos</span></h2>
+        </div>
+        <div class="row">
+          <aside class="col-md-2">
+            <nav class="nav nav-pills flex-column nav-produtos">
+              <button type="button" data-bs-toggle="tab" data-bs-target="#estoque-padrao" class="fw-bold text-start nav-link text-colored active" id="botao-padrao">Estoque do ano todo</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#estoque-primavera" class="fw-bold text-start nav-link text-colored" id="botao-primavera">Estoque Primavera</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#estoque-verao" class="fw-bold text-start nav-link text-colored" id="botao-verao">Estoque Verão</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#estoque-outono" class="fw-bold text-start nav-link text-colored" id="botao-outono">Estoque Outono</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#estoque-mochilas" class="fw-bold text-start nav-link text-colored" id="botao-mochilas">Melhoria de mochila</button>
+            </nav>
+          </aside>
+          <div class="col-md-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="estoque-padrao">
+                <div class="row">
+                  <div class="col-md-3 mt-2 d-flex flex-column  info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/padrao/32px-Catalogue.png" alt="Catalogo">
+                    <h5 class="text-colored fw-bold">Catálogo</h5>
+                    <p>
+                      Dá acesso irrestrito a todos os papéis de parede e de pisos... do conforto da sua casa!
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">30 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/36px-Wallpaper_001_Icon.png" alt="Papel de parede">
+                    <h5 class="text-colored fw-bold">Papel de parede </h5>
+                    <p>
+                      Decora as paredes de um aposento <span>(Aleatório cada dia)</span>
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/40px-Flooring_01_Icon.png" alt="Piso">
+                    <h5 class="text-colored fw-bold">Piso </h5>
+                    <p>
+                      Decora o piso de um aposento. <span>(Aleatório cada dia)</span>
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Apple_Sapling.png" alt="Muda de macieira">
+                    <h5 class="text-colored fw-bold">Muda de macieira </h5>
+                    <p>
+                      Demora até 28 dias para produzir uma macieira. Dá frutos no outono. Só cresce se 8 espaços adjacentes estiverem vazios.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">4 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Apricot_Sapling.png" alt="Muda de damasqueiro">
+                    <h5 class="text-colored fw-bold">Muda de damasqueiro </h5>
+                    <p>
+                      Demora até 28 dias para produzir uma árvore. Dá frutas na primavera. Só cresce se 8 espaços adjacentes estiverem vazios.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">2 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Basic_Fertilizer.png" alt="Fertilizante Básico">
+                    <h5 class="text-colored fw-bold">Fertilizante básico </h5>
+                    <p>
+                      Melhora a qualidade do fertilizante um pouco, aumentando sua chance de criar plantações de qualidade. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Basic_Retaining_Soil.png" alt="Solo retentor">
+                    <h5 class="text-colored fw-bold">Solo retentor</h5>
+                    <p>
+                      Possui uma chance de continuar úmido no próximo dia. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Bouquet.png" alt="Buquê">
+                    <h5 class="text-colored fw-bold">Buquê</h5>
+                    <p>
+                      Demonstre seu interesse romântico por aquela pessoa. 💖
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Cherry_Sapling.png" alt="Muda de cerejeira">
+                    <h5 class="text-colored fw-bold">Muda de cerejeira</h5>
+                    <p>
+                      Demora até 28 dias para produzir uma cerejeira madura. Dá frutas na primavera. Só cresce se 8 espaços adjacentes estiverem vazios.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Deluxe_Speed-Gro.png" alt="Solo Foliar Premium">
+                    <h5 class="text-colored fw-bold">Solo Foliar Premium</h5>
+                    <p>
+                      Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 25%. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">150 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Grass_Starter.png" alt="Mudas de grama">
+                    <h5 class="text-colored fw-bold">Mudas de grama</h5>
+                    <p>
+                      Ponha-o na sua fazenda para criar um novo pedaço de grama.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Oil.png" alt="	Óleo">
+                    <h5 class="text-colored fw-bold">Óleo</h5>
+                    <p>
+                      Óleo de cozinha multiuso.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Orange_Sapling.png" alt="Muda de laranjeira">
+                    <h5 class="text-colored fw-bold">Muda de laranjeira</h5>
+                    <p>
+                      Demora até 28 dias para produzir uma laranjeira. Dá frutos no verão. Só cresce se 8 espaços adjacentes estiverem vazios.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">4 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Peach_Sapling.png" alt="	Muda de pessegueiro">
+                    <h5 class="text-colored fw-bold">Muda de pessegueiro</h5>
+                    <p>
+                      Demora até 28 dias para produzir um pessegueiro. Dá frutos no verão. Só cresce se 8 espaços adjacentes estiverem vazios.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">6 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Pomegranate_Sapling.png" alt="	Muda de romanzeira">
+                    <h5 class="text-colored fw-bold">Muda de romanzeira</h5>
+                    <p>
+                      Demora até 28 dias para produzir uma romanzeira. Dá frutos no outono. Só cresce se 8 espaços adjacentes estiverem vazios.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">6 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Quality_Fertilizer.png" alt="Fertilizante de qualidade">
+                    <h5 class="text-colored fw-bold">Fertilizante de qualidade</h5>
+                    <p>
+                      Melhora a qualidade do fertilizante, aumentando sua chance de plantar colheitas de qualidade. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">150 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Quality_Retaining_Soil.png" alt="Solo retentor de qualidade">
+                    <h5 class="text-colored fw-bold">Solo retentor de qualidade</h5>
+                    <p>
+                      Possui boa chance de continuar úmido no próximo dia. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">150 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <div class="bg-grass mb-1">
+                      <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Recipe_Overlay.png" alt="Mudas de grama (receita)">
+                    </div>
+                    <h5 class="text-colored fw-bold">Mudas de grama (receita)</h5>
+                    <p>
+                      Possui boa chance de continuar úmido no próximo dia. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">1 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Rice.png" alt="Arroz">
+                    <h5 class="text-colored fw-bold">Arroz</h5>
+                    <p>
+                      Um grão básico geralmente servido com legumes.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">150 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Speed-Gro.png" alt="Solo Foliar">
+                    <h5 class="text-colored fw-bold">Solo Foliar</h5>
+                    <p>
+                      Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 10%. Misture no fertilizante arado.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Sugar.png" alt="Açúcar">
+                    <h5 class="text-colored fw-bold">Açúcar</h5>
+                    <p>
+                      Deixa suas massas e doces mais doces. Comer demais não é saudável.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Vinegar.png" alt="Vinagre">
+                    <h5 class="text-colored fw-bold">Vinagre</h5>
+                    <p>
+                      Um líquido fermentado usado em muitas receitas.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="src/images/pierre/padrao/Wheat_Flour.png" alt="Farinha de trigo">
+                    <h5 class="text-colored fw-bold">Farinha de trigo</h5>
+                    <p>
+                      Um ingrediente culinário comum feito de sementes de trigo trituradas.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                </div>
+
+              </div>
+              <div class="tab-pane" id="estoque-primavera">
+                <div class="row">
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Bean_Starter.png" alt="Mudas de feijão">
+                    <h5 class="text-colored fw-bold">Mudas de feijão</h5>
+                    <p>
+                      Plante-as na primavera. Demoram 10 dias para crescer, mas continuam crescendo logo após. Gera vários feijões por colheita. Cresce em uma treliça.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">60 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Cauliflower_Seeds.png" alt="Sementes de Couve-flor">
+                    <h5 class="text-colored fw-bold">Sementes de Couve-flor</h5>
+                    <p>
+                      Plante-as na primavera. Demora 12 dias para produzir uma couve-flor grande.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">80 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Garlic_Seeds.png" alt="Sementes de alho">
+                    <h5 class="text-colored fw-bold">Sementes de alho</h5>
+                    <p>
+                      Plante-as na primavera. Demoram 4 dias para crescer. (Disponível somente no ano 2 e posterior)
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">40 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Jazz_Seeds.png" alt="Sementes de Jasmim-azul">
+                    <h5 class="text-colored fw-bold">Sementes de Jasmim-azul</h5>
+                    <p>
+                      Plante na primavera. Demora 7 dias para produzir uma flor redondinha azul.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">30 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Kale_Seeds.png" alt="	Sementes de couve">
+                    <h5 class="text-colored fw-bold">Sementes de couve</h5>
+                    <p>
+                      Plante-as na primavera. Demoram 6 dias para crescer. Colha com a foice.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">70 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Parsnip_Seeds.png" alt="Sementes de chirívia">
+                    <h5 class="text-colored fw-bold">Sementes de chirívia</h5>
+                    <p>
+                      Plante-as na primavera. Demoram 4 dias para crescer.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">20 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Potato_Seeds.png" alt="Sementes de batata">
+                    <h5 class="text-colored fw-bold">Sementes de batata</h5>
+                    <p>
+                      Plante-as na primavera. Demoram 6 dias para crescer, e podem gerar várias batatas na colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">50 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/primavera/Tulip_Bulb.png" alt="Bulbo de Tulipa">
+                    <h5 class="text-colored fw-bold">Bulbo de Tulipa</h5>
+                    <p>
+                      Plante na primavera. Demora até 6 dias para produzir uma flor colorida. Cores variadas.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">20 ouros</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="estoque-verao">
+                <div class="row">
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Blueberry_Seeds.png" alt="Sementes de mirtilo">
+                    <h5 class="text-colored fw-bold">Sementes de mirtilo</h5>
+                    <p>
+                      Plante-as no verão. Demoram 13 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">80 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Corn_Seeds.png" alt="Sementes de milho">
+                    <h5 class="text-colored fw-bold">Sementes de milho</h5>
+                    <p>
+                      Plante-as no verão ou outono. Demoram 14 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">150 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Hops_Starter.png" alt="Mudas de lúpulo">
+                    <h5 class="text-colored fw-bold">Mudas de lúpulo</h5>
+                    <p>
+                      Plante-as no verão. Demoram 11 dias para crescer, mas continuam produzindo lúpulos depois. Cresce em uma treliça.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">60 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Melon_Seeds.png" alt="Sementes de Melão">
+                    <h5 class="text-colored fw-bold">Sementes de Melão</h5>
+                    <p>
+                      Plante-as no verão. Demoram 12 dias para crescer.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">80 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Pepper_Seeds.png" alt="Sementes de pimenta">
+                    <h5 class="text-colored fw-bold">Sementes de pimenta</h5>
+                    <p>
+                      Plante-as no verão. Demoram 5 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">40 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Poppy_Seeds.png" alt="Sementes de papoula">
+                    <h5 class="text-colored fw-bold">Sementes de papoula</h5>
+                    <p>
+                      Plante no verão. Produz uma flor brilhante e vermelha em 7 dias.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Radish_Seeds.png" alt="Sementes de rabanete">
+                    <h5 class="text-colored fw-bold">Sementes de rabanete</h5>
+                    <p>
+                      Plante-as durante o verão. Demoram 6 dias para crescer.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">40 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Red_Cabbage_Seeds.png" alt="Sementes de repolho vermelho">
+                    <h5 class="text-colored fw-bold">Sementes de repolho vermelho</h5>
+                    <p>
+                      Plante-as no verão. Demoram 9 dias para crescer. (Disponível somente no ano 2 e posterior).
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Spangle_Seeds.png" alt="Sementes de Miçanga">
+                    <h5 class="text-colored fw-bold">Sementes de Miçanga</h5>
+                    <p>
+                      Plante no verão. Demora 8 dias para produzir uma flor tropical vibrante. Cores variadas.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">50 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Sunflower_Seeds.png" alt="Sementes de girassol">
+                    <h5 class="text-colored fw-bold">Sementes de girassol</h5>
+                    <p>
+                      Plante no outono. Demora 8 dias para produzir um girassol grande. Dá mais sementes na colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Tomato_Seeds.png" alt="Sementes de Tomate">
+                    <h5 class="text-colored fw-bold">Sementes de Tomate</h5>
+                    <p>
+                      Plante-as no verão. Demoram 11 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">50 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/verao/Wheat_Seeds.png" alt="	Sementes de trigo">
+                    <h5 class="text-colored fw-bold">Sementes de trigo</h5>
+                    <p>
+                      Plante-as no verão ou outono. Demoram 4 dias para crescer. Colha com a foice.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">10 ouros</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="estoque-outono">
+                <div class="row">
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Amaranth_Seeds.png" alt="Sementes de amaranto">
+                    <h5 class="text-colored fw-bold">Sementes de amaranto</h5>
+                    <p>
+                      Plante-as no outono. Demoram 7 dias para crescer. Colha com a foice.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">70 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Corn_Seeds.png" alt="Sementes de milho">
+                    <h5 class="text-colored fw-bold">Sementes de milho</h5>
+                    <p>
+                      Plante-as no verão ou outono. Demoram 14 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">150 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Artichoke_Seeds.png" alt="Sementes de alcachofra">
+                    <h5 class="text-colored fw-bold">Sementes de alcachofra</h5>
+                    <p>
+                      Plante-as no outono. Demoram 8 dias para crescer. (Disponível somente no ano 2 e posterior).
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">30 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Bok_Choy_Seeds.png" alt="	Sementes de couve chinesa">
+                    <h5 class="text-colored fw-bold">Sementes de couve chinesa</h5>
+                    <p>
+                      Plante-as no outono. Demoram 4 dias para crescer.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">50 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Cranberry_Seeds.png" alt="Sementes de oxicoco">
+                    <h5 class="text-colored fw-bold">Sementes de oxicoco</h5>
+                    <p>
+                      Plante-as no outono. Demoram 7 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">240 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Eggplant_Seeds.png" alt="Sementes de berinjela">
+                    <h5 class="text-colored fw-bold">Sementes de berinjela</h5>
+                    <p>
+                      Plante-as no outono. Demoram 5 dias para crescerem, e continuam a produção após a primeira colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">20 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Fairy_Seeds.png" alt="Sementes de fada">
+                    <h5 class="text-colored fw-bold">Sementes de fada</h5>
+                    <p>
+                      Plante no outono. Demora 12 dias para produzir uma flor misteriosa. Cores variadas.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Grape_Starter.png" alt="Mudas de uva">
+                    <h5 class="text-colored fw-bold">Mudas de uva</h5>
+                    <p>
+                      Plante-as no outono. Demoram 10 dias para crescer, mas continuam produzindo uvas depois. Cresce em uma treliça.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">60 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Pumpkin_Seeds.png" alt="Sementes de abóbora">
+                    <h5 class="text-colored fw-bold">Sementes de abóbora</h5>
+                    <p>
+                      Plante-as no outono. Demoram 13 dias para crescer.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">100 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Sunflower_Seeds.png" alt="Sementes de girassol">
+                    <h5 class="text-colored fw-bold">Sementes de girassol</h5>
+                    <p>
+                      Plante no outono. Demora 8 dias para produzir um girassol grande. Dá mais sementes na colheita.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">200 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Yam_Seeds.png" alt="Sementes de inhame">
+                    <h5 class="text-colored fw-bold">Sementes de inhame</h5>
+                    <p>
+                      Plante-as no outono. Demoram 10 dias para crescer.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">60 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/outono/Wheat_Seeds.png" alt="	Sementes de trigo">
+                    <h5 class="text-colored fw-bold">Sementes de trigo</h5>
+                    <p>
+                      Plante-as no verão ou outono. Demoram 4 dias para crescer. Colha com a foice.
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">10 ouros</strong>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="estoque-mochilas">
+                <div class="row">
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/mochilas/Backpack.png" alt="Mochila tamanho 24">
+                    <h5 class="text-colored fw-bold">Mochila tamanho 24</h5>
+                    <p>
+                      Desbloqueia a segunda linha do inventário (12 espaços adicionais).
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">2 000 ouros</strong>
+                  </div>
+                  <div class="col-md-3 mt-2 d-flex flex-column info-item">
+                    <img class="d-block w-100 rounded mb-1" src="./src/images/pierre/mochilas/36_Backpack.png" alt="Mochila tamanho 36">
+                    <h5 class="text-colored fw-bold">Mochila tamanho 36</h5>
+                    <p>
+                      Desbloqueia a terceira linha do inventário (12 espaços adicionais).
+                    </p>
+                    <strong class="coin-item"><img class="coin" src="./src/images/pierre/18px-Gold.png" alt="">10 000 ouros</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-title text-center">Fale <span>conosco</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-7 mb-5">
+            <form>
+              <div class="mb-3">
+                <label for="nome" class="fw-bold text-colored form-label">Seu nome</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Caroline (esposa do Pierre)">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="fw-bold text-colored form-label">Seu e-mail</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="caroline.pierre@pierre.com">
+              </div>
+              <div class="mb-3">
+                <label for="telefone" class="fw-bold text-colored form-label">Seu telefone (opcional)</label>
+                <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="">
+              </div>
+              <div class="mb-3">
+                <label for="mensagem" class="fw-bold text-colored form-label">Sua mensagem</label>
+                <textarea name="mensagem" id="mensagem" class="form-control" rows="5" cols="30" placeholder="Digite a sua mensagem aqui"></textarea>
+              </div>
+              <button type="submit" class="btn fw-bold">Enviar</button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <div class="row">
+              <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                Redes sociais
+              </h3>
+              <ul class="social-links">
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-facebook text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5 ms-1 me-1">
+                  <a href="#">
+                    <i class="bi bi-instagram text-colored"></i>
+                  </a>
+                </li>
+                <li class="fs-5">
+                  <a href="#">
+                    <i class="bi bi-whatsapp text-colored"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="row mt-4">
+              <h3 class="section-title text-colored fs-4">
+                <i class="bi bi-cursor-fill"></i>
+                Endereço
+              </h3>
+              <p>Rua 1 ao Norte da Praça da Cidade, Vila dos Pelicanos - Stardew Valley</p>
+            </div>
+            <div>
+              <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2q2Z2A0Mt8AsWyQEdB6wuu?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row justify-content-end">
+
+      </div>
+    </div>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <!-- Mask -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!--Validation -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.21.0/dist/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.21.0/dist/localization/messages_pt_BR.min.js"></script> <!-- Mensagens pt-BR -->
+  <script src="./src/js/main.js"></script>
+</body>
+
+</html>
