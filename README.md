@@ -39,7 +39,7 @@ O projeto é composto por três arquivos principais:
    - Certifique-se de que todos os arquivos estão na mesma estrutura de pastas indicada.
    - Abra o arquivo `index.html` no navegador.
 3. **O deploy**
-   - [Vercel link](https://)
+   - [Vercel link](https://armazem-do-pierre.vercel.app/)
 
 ## Estrutura do Projeto
 ```plaintext
