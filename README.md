@@ -54,7 +54,7 @@ O projeto é composto por três arquivos principais:
 
 ## Autor
   <table>
-    <th>
+    <tr>
       <td align="center">
         <a href="http://github.com/BrunoAndradeDinis">
           <img src="https://avatars.githubusercontent.com/u/55500337?v=4" width="100px;" alt="Foto de Bruno de Andrade no GitHub"/><br>
@@ -63,7 +63,7 @@ O projeto é composto por três arquivos principais:
           </sub>
         </a>
       </td>
-    </th>
+    </tr>
   </table>
 
 ## Licença
